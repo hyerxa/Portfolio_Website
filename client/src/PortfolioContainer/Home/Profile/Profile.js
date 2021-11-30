@@ -48,7 +48,7 @@ export default function Profile() {
                                 />
                             </h1>
                             <span className='profile-role-tagline'>
-                                A passion for building applications that help make lives better.
+                                A passion for building applications that make lives better.
                             </span>
                         </span>
                     </div>
