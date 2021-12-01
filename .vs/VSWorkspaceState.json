@@ -4,13 +4,13 @@
     "\\client",
     "\\client\\src",
     "\\client\\src\\PortfolioContainer",
-    "\\client\\src\\PortfolioContainer\\AboutMe",
-    "\\client\\src\\PortfolioContainer\\footer",
     "\\client\\src\\PortfolioContainer\\Home",
     "\\client\\src\\PortfolioContainer\\Home\\Footer",
+    "\\client\\src\\PortfolioContainer\\Home\\Header",
     "\\client\\src\\PortfolioContainer\\Home\\Profile",
+    "\\client\\src\\PortfolioContainer\\Resume",
     "\\route"
   ],
-  "SelectedNode": "\\server.js",
+  "SelectedNode": "\\client\\src\\PortfolioContainer\\Resume\\Resume.js",
   "PreviewInSolutionExplorer": false
 }

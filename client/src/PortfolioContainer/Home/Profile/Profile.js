@@ -10,13 +10,13 @@ export default function Profile() {
                 <div className='profile-details'>
                     <div className='colz'>
                         <div className='colz-icon'>
-                            <a href='https://linkedin.com/in/haley-yerxa'>
+                            <a href='https://www.linkedin.com/in/trharrington/'>
                                 <i className='fa fa-linkedin-square'></i>
                             </a>
-                            <a href='https://github.com/hyerxa'>
+                            <a href='https://github.com/Tharrington86'>
                                 <i className='fa fa-github-square'></i>
                             </a>
-                            <a href='https://www.instagram.com/haleyyerxa/'>
+                            <a href='https://www.instagram.com/thomasryan86/'>
                                 <i className='fa fa-instagram'></i>
                             </a>
                         </div>
@@ -25,7 +25,7 @@ export default function Profile() {
                     <div className='profile-details-name'>
                         <span className='primay-text'>
                             {" "}
-                            Hello, I'm <span className='highlighted-text'>Haley</span>
+                            Hello, I'm <span className='highlighted-text'>Thomas</span>
                         </span>
                     </div>
 
@@ -37,19 +37,19 @@ export default function Profile() {
                                 <Typical
                                     loop={Infinity}
                                     steps={[
-                                        "Budding Software Engineer",
+                                        "Rising Software Engineer",
                                         1000,
-                                        "NCAA Division 1 Golfer",
+                                        "Design first, then code",
                                         1000,
                                         "Full Stack Web Developer",
                                         1000,
-                                        "Machine Learning Enthusiast",
+                                        "Trapshooting Champion",
                                         1000,
                                     ]}
                                 />
                             </h1>
                             <span className='profile-role-tagline'>
-                                A passion for building applications that make lives better. Always learning, listening, and leading.
+                                "When something is important enough, you do it even if the odds are not in your favor" - Elon Musk.
                             </span>
                         </span>
                     </div>
@@ -58,7 +58,7 @@ export default function Profile() {
                             {""}
                             Get in Touch
                         </button>
-                        <a href='Haley_Yerxa_FGCU_Resume.pdf' download='Haley_Yerxa_Resume.pdf'>
+                        <a href='Thomas_Harrington_FGCU_Resume.pdf' download='Thomas_Harrington_Resume.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
                     </div>

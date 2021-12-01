@@ -67,22 +67,7 @@ const Resume = (props) => {
                 "An Angular Electron.NET application to automate testing procedures for firmware devices at American Traction Systems",
             subHeading:
                 "Technologies Used:  Angular, .NET Core, SQLite, Electron.NET.",
-        },
-        {
-            title: "Personal Portfolio Website",
-            duration: { fromDate: "2021", toDate: "Now" },
-            description:
-                "A Personal Portfolio website to showcase all my details and projects at one place.",
-            subHeading: "Technologies Used: React JS, Bootsrap",
-        },
-        {
-            title: "Epilepsy Keto Calculator ",
-            duration: { fromDate: "2021", toDate: "Now" },
-            description:
-                "Web Applicationt to help parents of children with epilepsy calculate macronutrient consumption of daily diet.",
-            subHeading:
-                "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
-        },
+        }
     ];
 
     const resumeDetails = [
@@ -95,9 +80,9 @@ const Resume = (props) => {
                     toDate={"Present"}
                 />
                 <ResumeHeading
-                    heading={"High School "}
-                    subHeading={"Hillcrest High School, Ottawa"}
-                    fromDate={"2014"}
+                    heading={"Security Clearance"}
+                    subHeading={"Top Secret"}
+                    fromDate={"2015"}
                     toDate={"2018"}
                 />
             </div>
@@ -108,46 +93,44 @@ const Resume = (props) => {
             <div className="resume-screen-container" key="current-employment" id="Current Employment">
                 <div className="experience-container">
                     <ResumeHeading
-                        heading={"Helux Systems, INC"}
-                        subHeading={"Junior Data Scientist"}
+                        heading={"Florida Trapshooters Association"}
+                        subHeading={"Southern Zone Director"}
                         fromDate={"2021"}
                         toDate={"Present"}
                     />
                     <div className="experience-description">
                         <span className="resume-description-text">
-                            - Currently working as a fullstack web developer on a data migration tool
+                            - Prepare for and attend board meetings to approve major contracts and grants, update bylaws, and
+                            review financial standing.
                         </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Developing new features and creating bug fixes.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Integrated the web app with backend services to enhance machine learning integration and data analytics
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Working in an Agile Environment, collaborating with other developers to achieve a common goal
-                        </span>
-                        <br />
                     </div>
                 </div>
                 <div className="experience-container">
                     <ResumeHeading
-                        heading={"Florida Gulf Coast University Computational Perception Laboratory"}
-                        subHeading={"Machine Learning Research Intern"}
+                        heading={"Amateur Trapshooting Association"}
+                        subHeading={"Board of Directors"}
                         fromDate={"2021"}
                         toDate={"Present"}
                     />
                     <div className="experience-description">
                         <span className="resume-description-text">
-                            - Working with Dr. Chris DiMattina from the FGCU Department of Psychology on an NIH R-15
-                            grant from the National Eye Institute.
+                            - Elected by peers to represent the Southeastern Zone on the Board of Directors.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Using Python TensorFlow and MATLAB to develop neural networks to model behavior of how
-                            humans perceive shadows and edges in images
+                            - Serve as an active advocate and ambassador for the organization and fully engage in identifying and
+                            securing the financial resources and partnerships necessary for the organization to advance its
+                            mission.
+                        </span>
+                        <br />
+                        <span className="resume-description-text">
+                            - Prepare for and attend board meetings to approve major contracts and grants, update bylaws, and
+                            review financial standing.
+                        </span>
+                        <br />
+                        <span className="resume-description-text">
+                            - Chairman of the Handicap Committee responsible for classification of competitors based on average
+                            score or special category.
                         </span>
                     </div>
                 </div>
@@ -159,37 +142,39 @@ const Resume = (props) => {
             <div className="resume-screen-container" key="work-experience" id="Work Experience">
                 <div className="experience-container">
                     <ResumeHeading
-                        heading={"Bell Canada"}
-                        subHeading={"Junior Software Developer"}
-                        fromDate={"May 2020"}
-                        toDate={"August 2020"}
+                        heading={"Harris Corporation"}
+                        subHeading={"Engineering Technician"}
+                        fromDate={"October 2007"}
+                        toDate={"January 2018"}
                     />
                     <div className="experience-description">
                         <span className="resume-description-text">
-                            - Developed web tool for displaying account details using a .NET core web API and React JS user
-                            interface, and deployed the tool using Docker.
+                            - Designated Team Lead for the build, test, and integration of space-based communications platforms
+                            for various commercial and government organizations.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Primary developer on the project, responsible for both back-end and front-end development.
+                            - Managed technician teams ranging in size from 7 to 15 members
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Member of an AGILE development team, gained experience working in sprints and accurately
-                            estimating the required time for various tasks.
+                            - Conducted inspections to determine completion of work against schedule, specifications, and
+                            standards.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Used test-driven development to modify existing APIs in .NET to add new endpoints required for
-                            the project.
+                            - Analyzed build/test documentation (Work Order Flow Tags, Technical Drawings, Procedures, and
+                            Parts Lists) to ensure they were unambiguous and complete.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Implemented React-Redux to handle multiple API calls and error handling.
+                            - Coordinated with Quality Engineering to ensure inspections were performed as required by the build
+                            documentation.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Used Material UI components in React, as well as developing custom React Hooks and styles.
+                            - Interfaced with customer representatives throughout the program lifecycle to ensure their needs were
+                            being addressed
                         </span>
                         <br />
                     </div>

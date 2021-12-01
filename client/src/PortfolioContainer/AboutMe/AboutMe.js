@@ -14,16 +14,14 @@ export default function AboutMe(props) {
 
     const SCREEN_CONSTSANTS = {
         description:
-            "My name is Haley Yerxa and I am a fourth-year software engineering student minoring in Mathematics at Florida Gulf Coast University (FGCU). I am also the co-captain of the FGCU women's golf team, which competes at the NCAA Division 1 level. I have spent the first 3 summers of my degree doing internships to get introduced to the world programming, and the focus of my experience has been on fullstack web development in React JS and TS and Angular with .NET Core backend operations. I also have experience working with Machine Learning, both in professional and academic settings. I am someone who loves to take on projects and see them through to completion, and I always strive to put forward my best work possible. What I love so much about programming is how it allows you to take on any problem and come up with a unique solution. There is nothing more gratifying for me than finally breaking through on a project and seeing the results from my hard work.",
+            "My name is Thomas Harrington and I am a fourth-year software engineering student at Florida Gulf Coast University (FGCU). The path that has led me to where I am currently, has not been traditional by any means. I entered my family construction business after graduating high school in 2004. When the construction industry faced an unprecedented recession in 2007, I was fortunate enough to be able apply my mechanical knowledge in the aerospace industry for the Harris Corporation. I was quickly elevated to a crew lead position for the build, test, delivery, and final integration of space-based communication platforms.  Eventually, I was asked to obtain a security clearance so that I could contribute to our government contracts business area. I often worked alongside our software team during the lifecycle of the programs I was selected for and that is where my passion in software development came from. While I deeply loved the work I was doing, I felt like I was meant for more and with the support of my wife, in 2018 I made the decision to earn my software engineering degree. Since then, I have entered the world of full stack web development utilizing Angular/.NET Core and React JS. My other passion in life is the sport of Trapshooting.I have competed in the sport since the age of thirteen and have won numerous state and national titles over my shooting career.More importantly, this sport introduced me to my wife! In 2019, I was elected to serve on the Board of Directors for the Amateur Trapshooting Association, which is the largest sport shooting foundation in the world.",
         highlights: {
             bullets: [
+                "Project Management",
+                "Professional",
                 "Full Stack web app development",
                 "Interactive Front End Operations in React and Angular",
-                "Comprehensive Back End Integration using .NET Core",
-                "Using Redux for State Management",
-                "Building and implementing REST API",
-                "Managing databases",
-                "Keras, Scikit Learn, and Matlab for Machine Learning"
+                "Comprehensive Back End Integration using .NET Core"
             ],
             heading: "Here are a Few Highlights:",
         },
@@ -64,7 +62,7 @@ export default function AboutMe(props) {
                                 {" "}
                                 ContactMe{" "}
                             </button>
-                            <a href="Haley_Yerxa_FGCU_Resume.pdf" download="Haley Yerxa.pdf">
+                            <a href="Thomas_Harrington_FGCU_Resume.pdf" download="Thomas Harrignton.pdf">
                                 <button className="btn highlighted-btn">Get Resume</button>
                             </a>
                         </div>
