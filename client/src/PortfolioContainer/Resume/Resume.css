@@ -76,7 +76,7 @@
 .bullet-logo {
     height: 16px;
     margin: 0 30px 0 0;
-    color: FFFFFF;
+    color: #FFFFFF;
 }
 
 .bullet-icons {
@@ -88,7 +88,7 @@
 }
 
 .selected-bullet {
-    color: FFFFFF;
+    color: #FFFFFF;
     width: 100%;
 }
 
@@ -148,7 +148,7 @@
     padding: 4px 12px;
     font-size: 14px;
     border-radius: 14px;
-    color: FFFFFF;
+    color: #FFFFFF;
 }
 
 .skill-parent {
