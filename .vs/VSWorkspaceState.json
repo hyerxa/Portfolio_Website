@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\src",
+    "\\client\\src\\PortfolioContainer",
+    "\\client\\src\\PortfolioContainer\\ContactMe",
+    "\\client\\src\\PortfolioContainer\\Home",
+    "\\client\\src\\PortfolioContainer\\Home\\Header",
+    "\\client\\src\\PortfolioContainer\\Home\\Profile",
+    "\\client\\src\\PortfolioContainer\\Resume",
+    "\\client\\src\\utilities"
+  ],
+  "SelectedNode": "\\client\\src\\PortfolioContainer\\ContactMe\\ContactMe.js",
+  "PreviewInSolutionExplorer": false
+}
