@@ -61,12 +61,12 @@ const Resume = (props) => {
 
     const projectsDetails = [
         {
-            title: "Senior Design Project - Auto Test Fixture ",
+            title: "VHI Webpage Requirements",
             duration: { fromDate: "2021", toDate: "Now" },
             description:
-                "An Angular Electron.NET application to automate testing procedures for firmware devices at American Traction Systems",
+                "A semester-long project focused on the documentation side of Software engineering. Involved creating requirements for a client, writing documentation, and going through the processes of requirements engineering.",
             subHeading:
-                "Technologies Used:  Angular, .NET Core, SQLite, Electron.NET.",
+                "Used JIRA and Confluence to manage backlog items, user stories, prototypes, and other documents.",
         },
         {
             title: "Personal Portfolio Website",
@@ -76,12 +76,12 @@ const Resume = (props) => {
             subHeading: "Technologies Used: React JS, Bootsrap",
         },
         {
-            title: "Epilepsy Keto Calculator ",
+            title: "Spotify Pomodoro Technique Web Application ",
             duration: { fromDate: "2021", toDate: "Now" },
             description:
-                "Web Applicationt to help parents of children with epilepsy calculate macronutrient consumption of daily diet.",
+                "Utilize Spotify API (Spotipy) to help students time their music using the pomodoro technique.",
             subHeading:
-                "Technologies Used: Mongo DB, Epress Js, React Js, Node JS, Redux, Bootstrap.",
+                "Technologies Used: Python.",
         },
     ];
 
@@ -96,7 +96,7 @@ const Resume = (props) => {
                 />
                 <ResumeHeading
                     heading={"High School "}
-                    subHeading={"Hillcrest High School, Ottawa"}
+                    subHeading={"West Broward High School"}
                     fromDate={"2014"}
                     toDate={"2018"}
                 />
@@ -108,46 +108,18 @@ const Resume = (props) => {
             <div className="resume-screen-container" key="current-employment" id="Current Employment">
                 <div className="experience-container">
                     <ResumeHeading
-                        heading={"Helux Systems, INC"}
-                        subHeading={"Junior Data Scientist"}
-                        fromDate={"2021"}
+                        heading={"American Traction Systems"}
+                        subHeading={"Senior Design Project"}
+                        fromDate={"September 2021"}
                         toDate={"Present"}
                     />
                     <div className="experience-description">
                         <span className="resume-description-text">
-                            - Currently working as a fullstack web developer on a data migration tool
+                            - An Angular Electron.NET application to automate testing procedures for firmware devices at American Traction Systems.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Developing new features and creating bug fixes.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Integrated the web app with backend services to enhance machine learning integration and data analytics
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Working in an Agile Environment, collaborating with other developers to achieve a common goal
-                        </span>
-                        <br />
-                    </div>
-                </div>
-                <div className="experience-container">
-                    <ResumeHeading
-                        heading={"Florida Gulf Coast University Computational Perception Laboratory"}
-                        subHeading={"Machine Learning Research Intern"}
-                        fromDate={"2021"}
-                        toDate={"Present"}
-                    />
-                    <div className="experience-description">
-                        <span className="resume-description-text">
-                            - Working with Dr. Chris DiMattina from the FGCU Department of Psychology on an NIH R-15
-                            grant from the National Eye Institute.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Using Python TensorFlow and MATLAB to develop neural networks to model behavior of how
-                            humans perceive shadows and edges in images
+                            - Technologies Used:  Angular, .NET Core, SQLite, Electron.NET.
                         </span>
                     </div>
                 </div>
@@ -159,69 +131,22 @@ const Resume = (props) => {
             <div className="resume-screen-container" key="work-experience" id="Work Experience">
                 <div className="experience-container">
                     <ResumeHeading
-                        heading={"Bell Canada"}
-                        subHeading={"Junior Software Developer"}
-                        fromDate={"May 2020"}
-                        toDate={"August 2020"}
+                        heading={"EIB Home Inspections"}
+                        subHeading={"Receptionist"}
+                        fromDate={"June 2017"}
+                        toDate={"June 2018"}
                     />
                     <div className="experience-description">
                         <span className="resume-description-text">
-                            - Developed web tool for displaying account details using a .NET core web API and React JS user
-                            interface, and deployed the tool using Docker.
+                            - Managed receptionist area, including greeting customers, responding to telephone, and in-person requests for information.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Primary developer on the project, responsible for both back-end and front-end development.
+                            - Prepared reports to be sent out to insurance companies and realtors.
                         </span>
                         <br />
                         <span className="resume-description-text">
-                            - Member of an AGILE development team, gained experience working in sprints and accurately
-                            estimating the required time for various tasks.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Used test-driven development to modify existing APIs in .NET to add new endpoints required for
-                            the project.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Implemented React-Redux to handle multiple API calls and error handling.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Used Material UI components in React, as well as developing custom React Hooks and styles.
-                        </span>
-                        <br />
-                    </div>
-                </div>
-                <div className="experience-container">
-                    <ResumeHeading
-                        heading={"Blackberry"}
-                        subHeading={"Software Development Student"}
-                        fromDate={"May 2019"}
-                        toDate={"August 2019"}
-                    />
-                    <div className="experience-description">
-                        <span className="resume-description-text">
-                            - Created Machine Learning program attached to Django web service and AWS S3 buckets to process
-                            data and predict values.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Maintained multiple servers to ensure proper communication of data being received from devices
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Developed valuable projects in Elastic Stack and Kibana to interpret and visualise data
-
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Worked with Spring MVC Web Service and created and modified Docker images and containers.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Debugged and established new code in Python, Java, and Kotlin, on Ubuntu
+                            - Managed inspection schedule.
                         </span>
                         <br />
                     </div>
@@ -249,16 +174,12 @@ const Resume = (props) => {
         <div className="resume-item" key="interests">
             <div className="resume-screen-container" key="interests" id="Interests">
                 <ResumeHeading
-                    heading="Golf"
-                    description="I am an NCAA Division 1 Golfer, with several acolades including 2020 ASUN All-Academic Team, Champion of the 2021 Pat Bradley Invite, and co-captain of my team."
+                    heading="Graphic design"
+                    description="I've created several logos for different local companies. I am proficient in Adobe Photoshop and Illustrator."
                 />
                 <ResumeHeading
-                    heading="Music"
-                    description="I play 8 different instruments, with my primary instrument being piano. The others include flute, clarinet, tenor saxophone, oboe, violin, percussion, and piccolo."
-                />
-                <ResumeHeading
-                    heading="Traveling"
-                    description="I thrive in exploring the world and all the different cultures, food, and history traveling has to offer."
+                    heading="Reading"
+                    description="Whether it's in the hallways before class or on my bed besides my cat, I spend as much of my free time reading. I always try to have at least one book with me at all times"
                 />
             </div>
         </div>,

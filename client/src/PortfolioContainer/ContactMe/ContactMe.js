@@ -76,14 +76,11 @@ export default function ContactMe(props) {
                                 1000,
                             ]} />
                     </h2>{" "}
-                    <a href='https://linkedin.com/in/haley-yerxa'>
+                    <a href='https://www.linkedin.com/in/alexandra-salas-/'>
                         <i className='fa fa-linkedin-square'></i>
                     </a>
-                    <a href='https://github.com/hyerxa'>
+                    <a href='https://github.com/aesalas'>
                         <i className='fa fa-github-square'></i>
-                    </a>
-                    <a href='https://www.instagram.com/haleyyerxa/'>
-                        <i className='fa fa-instagram'></i>
                     </a>
                 </div>
                 <div className="back-form">

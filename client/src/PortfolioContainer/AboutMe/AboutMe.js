@@ -14,16 +14,12 @@ export default function AboutMe(props) {
 
     const SCREEN_CONSTSANTS = {
         description:
-            "My name is Haley Yerxa and I am a fourth-year software engineering student minoring in Mathematics at Florida Gulf Coast University (FGCU). I am also the co-captain of the FGCU women's golf team, which competes at the NCAA Division 1 level. I have spent the first 3 summers of my degree doing internships to get introduced to the world programming, and the focus of my experience has been on fullstack web development in React JS and TS and Angular with .NET Core backend operations. I also have experience working with Machine Learning, both in professional and academic settings. I am someone who loves to take on projects and see them through to completion, and I always strive to put forward my best work possible. What I love so much about programming is how it allows you to take on any problem and come up with a unique solution. There is nothing more gratifying for me than finally breaking through on a project and seeing the results from my hard work.",
+            "Hello! My name is Alexandra Salas and I am in my final year pursuing my bachelors in software engineering with a minor in mathematics at Florida Gulf Coast University.I began programming in high school when my world history teacher decided to spend an early release day introducing the basics of programming. From then on, I found my passion. I am a first generation college student so I had to learn to navigate being the first in college and in software. Because of this, I am a fast learner, easily adaptable, and I've never been one to back down from a challenge.",
         highlights: {
             bullets: [
-                "Full Stack web app development",
-                "Interactive Front End Operations in React and Angular",
-                "Comprehensive Back End Integration using .NET Core",
-                "Using Redux for State Management",
-                "Building and implementing REST API",
-                "Managing databases",
-                "Keras, Scikit Learn, and Matlab for Machine Learning"
+                "Proficient: Java, SQL, Python",
+                "Knowledgeable: C++, JavaScript, HTML / CSS, JIRA, Confluence, Angular",
+                "Familiar: NLP(Natural Language Processing), Affinity Analysis, Requirements engineering"
             ],
             heading: "Here are a Few Highlights:",
         },
@@ -64,7 +60,7 @@ export default function AboutMe(props) {
                                 {" "}
                                 ContactMe{" "}
                             </button>
-                            <a href="Haley_Yerxa_FGCU_Resume.pdf" download="Haley Yerxa.pdf">
+                            <a href="Alexandra_Salas_FGCU_Resume.pdf" download="Alexandra_Salas.pdf">
                                 <button className="btn highlighted-btn">Get Resume</button>
                             </a>
                         </div>

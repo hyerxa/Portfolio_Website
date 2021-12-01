@@ -10,14 +10,11 @@ export default function Profile() {
                 <div className='profile-details'>
                     <div className='colz'>
                         <div className='colz-icon'>
-                            <a href='https://linkedin.com/in/haley-yerxa'>
+                            <a href='https://www.linkedin.com/in/alexandra-salas-/'>
                                 <i className='fa fa-linkedin-square'></i>
                             </a>
-                            <a href='https://github.com/hyerxa'>
+                            <a href='https://github.com/aesalas'>
                                 <i className='fa fa-github-square'></i>
-                            </a>
-                            <a href='https://www.instagram.com/haleyyerxa/'>
-                                <i className='fa fa-instagram'></i>
                             </a>
                         </div>
                     </div>
@@ -25,7 +22,7 @@ export default function Profile() {
                     <div className='profile-details-name'>
                         <span className='primay-text'>
                             {" "}
-                            Hello, I'm <span className='highlighted-text'>Haley</span>
+                            Hello, I'm <span className='highlighted-text'>Alex</span>
                         </span>
                     </div>
 
@@ -37,19 +34,19 @@ export default function Profile() {
                                 <Typical
                                     loop={Infinity}
                                     steps={[
-                                        "Budding Software Engineer",
+                                        "Aspiring Software engineer",
                                         1000,
-                                        "NCAA Division 1 Golfer",
+                                        "Full stack developer",
                                         1000,
-                                        "Full Stack Web Developer",
+                                        "Problem solver",
                                         1000,
-                                        "Machine Learning Enthusiast",
+                                        "Digital designer",
                                         1000,
                                     ]}
                                 />
                             </h1>
                             <span className='profile-role-tagline'>
-                                A passion for building applications that make lives better. Always learning, listening, and leading.
+                                Passionate about creating innovative, creative, and purposeful solutions. I build things to make a difference.
                             </span>
                         </span>
                     </div>
@@ -58,7 +55,7 @@ export default function Profile() {
                             {""}
                             Get in Touch
                         </button>
-                        <a href='Haley_Yerxa_FGCU_Resume.pdf' download='Haley_Yerxa_Resume.pdf'>
+                        <a href='Alexandra_Salas_FGCU_Resume.pdf' download='Alexandra_Salas_Resume.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>
                     </div>
