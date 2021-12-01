@@ -3,7 +3,7 @@ import InsertChartIcon from '@mui/icons-material/InsertChart';
 import HistoryIcon from '@mui/icons-material/History';
 import WorkOutlineOutlinedIcon from '@mui/icons-material/WorkOutlineOutlined';
 import SchoolIcon from '@mui/icons-material/School';
-import SportsGolfIcon from '@mui/icons-material/SportsGolf';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -53,11 +53,11 @@ const Resume = (props) => {
         { label: "Current Employment", logoSrc: <WorkOutlineOutlinedIcon className="bullet-logo"/> },
         { label: "Work History", logoSrc: <HistoryIcon className="bullet-logo"/> },
         { label: "Projects", logoSrc: <InsertChartIcon className="bullet-logo"/> },
-        { label: "Interests", logoSrc: <SportsGolfIcon className="bullet-logo"/> },
+        { label: "Awards and Achievements", logoSrc: <EmojiEventsIcon className="bullet-logo"/> },
     ];
 
     /* Array for id's*/
-    const idArray = ["Education", "Current Employment", "Work Experience", "Projects", "Interests"]
+    const idArray = ["Education", "Current Employment", "Work Experience", "Projects", "Awards and Achievements"]
 
     const projectsDetails = [
         {
@@ -174,39 +174,7 @@ const Resume = (props) => {
                         <br />
                         <span className="resume-description-text">
                             - Interfaced with customer representatives throughout the program lifecycle to ensure their needs were
-                            being addressed
-                        </span>
-                        <br />
-                    </div>
-                </div>
-                <div className="experience-container">
-                    <ResumeHeading
-                        heading={"Blackberry"}
-                        subHeading={"Software Development Student"}
-                        fromDate={"May 2019"}
-                        toDate={"August 2019"}
-                    />
-                    <div className="experience-description">
-                        <span className="resume-description-text">
-                            - Created Machine Learning program attached to Django web service and AWS S3 buckets to process
-                            data and predict values.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Maintained multiple servers to ensure proper communication of data being received from devices
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Developed valuable projects in Elastic Stack and Kibana to interpret and visualise data
-
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Worked with Spring MVC Web Service and created and modified Docker images and containers.
-                        </span>
-                        <br />
-                        <span className="resume-description-text">
-                            - Debugged and established new code in Python, Java, and Kotlin, on Ubuntu
+                            being addressed.
                         </span>
                         <br />
                     </div>
@@ -230,20 +198,20 @@ const Resume = (props) => {
             </div>
         </div>,
 
-        /* Interests */
-        <div className="resume-item" key="interests">
-            <div className="resume-screen-container" key="interests" id="Interests">
+        /* Awards and Achievements */
+        <div className="resume-item" key="awards">
+            <div className="resume-screen-container" key="awards" id="Awards and Achievements">
                 <ResumeHeading
-                    heading="Golf"
-                    description="I am an NCAA Division 1 Golfer, with several acolades including 2020 ASUN All-Academic Team, Champion of the 2021 Pat Bradley Invite, and co-captain of my team."
+                    heading="FGCU Dean's List"
+                    description=" FGCU Dean's List, 2018 - Present"
                 />
                 <ResumeHeading
-                    heading="Music"
-                    description="I play 8 different instruments, with my primary instrument being piano. The others include flute, clarinet, tenor saxophone, oboe, violin, percussion, and piccolo."
+                    heading="President's Award for Excellence"
+                    description="Received the President's Award for Excellence on two occasions for contributions to programs at Harris Corporation"
                 />
                 <ResumeHeading
-                    heading="Traveling"
-                    description="I thrive in exploring the world and all the different cultures, food, and history traveling has to offer."
+                    heading="Eagle Scout"
+                    description="Eagle Scout, Boy Scouts of America, 2004"
                 />
             </div>
         </div>,

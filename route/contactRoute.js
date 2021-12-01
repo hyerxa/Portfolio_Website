@@ -11,13 +11,13 @@ router.post('/contact', (req, res) => {
         service: 'Gmail',
         port: 465,
         auth: {
-            user: 'haleybyerxa@gmail.com',
-            pass: 'workPassword'
+            user: 'thomasharrington.software@gmail.com',
+            pass: 'BugKiller86'
         }
     })
     let mailOptions = {
         from: data.email,
-        to: "haleybyerxa@gmail.com",
+        to: "thomasharrington.software@gmail.com",
         subject: `message from ${data.name}`,
         html: `
 
@@ -34,7 +34,7 @@ router.post('/contact', (req, res) => {
     smtpTransporter.sendMail(mailOptions, (error) => {
         try {
             if (error) return res.status(400).json({ msg: "Please fill all the fields" })
-            res.status(200).json({msg: 'Thank you for contacting Haley'})
+            res.status(200).json({msg: 'Thank you for contacting Thomas'})
 
         } catch (error) {
             if (error) return res.status(500).json({msg: "There is a server error"})
