@@ -9,9 +9,17 @@
 
 .resume-card {
     display: flex;
-    height: 500px;
+    height: var(--resume-height);
     width: 1000px;
     /* margin: 80px 0; */
+}
+
+.resume-item {
+    display: flex;
+    height: var(--resume-height);
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .resume-bullets {
@@ -96,7 +104,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 500px;
     width: 100%;
 }
 
@@ -190,10 +197,23 @@
 @media only screen and (max-width: 1110px) {
     .resume-card {
         width: 880px;
+        height: var(--two-resume-height);
+    }
+
+    .resume-bullets {
+        width: 880px;
+        height: var(--resume-height);
+    }
+
+    .resume-item {
+        width: 880px;
+        height: var(--resume-height);
     }
 
     .resume-bullet-details {
         padding: 0 0 0 70px;
+        width: 880px;
+        height: var(--resume-height);
     }
 }
 
@@ -210,7 +230,15 @@
     }
 
     .resume-card {
-        height: fit-content;
+        height: var(--two-resume-height);
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        align-items: center;
+        width: 90%;
+    }
+
+    .resume-item {
         display: flex;
         flex-direction: column;
         margin: 30px 0;
@@ -219,7 +247,6 @@
     }
 
     .resume-bullet-details {
-        height: 500px;
         padding: 0;
         width: fit-content;
     }
