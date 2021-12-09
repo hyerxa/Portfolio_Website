@@ -15,9 +15,12 @@
 .DS_Store
 .env.local
 .env.development.local
-.env.test.local
+.env.test.localY
 .env.production.local
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# comment this out when deploying to heroku
+contactRoute.js
