@@ -24,4 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # comment this out when deploying to heroku
-contactRoute.js
+route/contactRoute.js
